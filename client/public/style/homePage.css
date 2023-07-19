@@ -1,0 +1,135 @@
+
+  body {
+    background-image: linear-gradient(to right, #00004f, #00019d 400px, #00004f 800px);
+    color:#ffe783;
+  }
+
+  .navbar {
+    background-image: linear-gradient(to right, #00004f, #00019d 400px, #00004f 800px);
+  }
+
+  .navbar-brand {
+    color: #ffe783;
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+
+  .navbar-brand:hover {
+    color: #fd8700; 
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
+
+  .nav-link {
+    color: #ffe783;
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+  .nav-link:hover {
+    color: #fd8700; 
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+
+  }
+
+  .bigDiv {
+    margin-top: 50px;
+  }
+
+  .questions {
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    /* padding: 2% 5% 0 5%; */
+    width: 100%;
+}
+
+.categoryName {
+    width: 170px;
+    cursor: default;
+}
+
+  .oneQuestion {
+    cursor: pointer;
+    margin: 0px;
+    padding: 20px 40px 20px 40px;
+    
+  }
+
+  .oneQuestion:hover {
+    background-image: linear-gradient(to right, #3f5cc6, #5cb4e0 400px, #3f5cc6 800px);
+
+  }
+
+  .modal-content {
+    background-image: linear-gradient(to right, #00004f, #00019d 400px, #00004f 800px);
+  }
+
+  .btnCloset:hover {
+    background-color: rgb(167, 0, 0);
+  }
+
+  .btnApplay:hover {
+    background-color: green;
+  }
+
+  .navbar-nav {
+    align-items: flex-end;
+  }
+
+  .statisticTitle {
+    font-size: 40px;
+    cursor: default;
+    margin-bottom: 50px;
+  }
+
+  .statisticAlldiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    cursor: default;
+
+  }
+
+  .endGame {
+    margin-top: 50px;
+  }
+
+  .statisticName {
+    min-width: 200px;
+  }
+
+  .statisticScore {
+    min-width: 200px;
+  }
+
+  .discriptionGame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    cursor: default;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
